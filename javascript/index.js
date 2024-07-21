@@ -140,11 +140,11 @@ onkeydown = (e) => {
     //     9   -  57
 
 
-    // if(e.keyCode < 48 || e.keyCode > 57){
-    //     alert("Use only Numbers!")
-    // }else{
-    //     console.log(`${e.key} ${e.keyCode}`)
-    // }
+    if(e.keyCode < 48 || e.keyCode > 57){
+        alert("Use only Numbers!")
+    }else{
+        console.log(`${e.key} ${e.keyCode}`)
+    }
 
     // ArrowUp
     // ArrowDown
