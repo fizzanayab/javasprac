@@ -1,16 +1,18 @@
-body{
-    background-image: url('https://preview.redd.it/875kdouizxx61.png?auto=webp&s=42bc1333071c9760b1e8da15f20ea6678f1f42cf');
+body {
+
+    background-image: url('https://images2.minutemediacdn.com/image/upload/c_fill,w_1440,ar_16:9,f_auto,q_auto,g_auto/shape/cover/sport/641668-studio-ghibli-c578e4a93ba06d84eb45007d08d87c03.jpg');
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
-#demo{
-    width: 25px;
-    height: 25px;
+#test {
+    width: 50px;
+    height: 50px;
     background: transparent;
     float: left;
-    transition: 0.5s;
-
+    /* transition: 1s; */
     position: fixed;
     top: 0;
     left: 0;
+
 }
