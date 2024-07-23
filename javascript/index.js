@@ -34,6 +34,10 @@ onkeydown = (e) => {
 
 
 
+function chCarImg() {
+    let value = document.getElementById('ghibli-charac-select').value
 
+    document.getElementById('character').src = `img/${value}`
+}
 
 
